@@ -5,4 +5,4 @@ select
     order_date,
     status
 
-from raw.jaffle_shop.orders
+from training_db_johns.jaffle_shop.orders
