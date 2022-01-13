@@ -7,4 +7,4 @@ select
     paymentmethod as payment_method,
     status
 
-from raw.stripe.payment
+from {{ source('stripe', 'payment') }}
