@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from training_db_johns.jaffle_shop.customers
+from {{ source('jaffle_shop', 'customers') }}
